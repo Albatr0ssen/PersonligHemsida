@@ -7,14 +7,11 @@ body{
 header{
     background-color: black;
     padding: 16px;
-    color:black; 
+    color:white; 
     font-size:100px;
     text-align: center;
 }
 
-header:hover{
-    color: white;
-}
 
 footer{
     padding: 10px;
@@ -24,7 +21,7 @@ footer{
     text-align:center;
 }
 
-#DubbelCheese1,#DubbelCheese2,#DubbelCheese3,#CokeZero1{
+img {
     width: 300px;
 }
 
