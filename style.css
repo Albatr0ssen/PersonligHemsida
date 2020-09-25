@@ -22,6 +22,10 @@ header{
     justify-content: center;
 }
 
+span{
+    text-align: center;
+}
+
 .pokeJAM{
     height: 112px;
     width: 500px;
@@ -32,7 +36,7 @@ footer{
     padding: 10px;
     background-color:black;
     color:white;
-    font-size:200px;
+    font-size: 150px;
     text-align:center;
 }
 
@@ -53,11 +57,10 @@ nav {
 
 .navLink:active{
     text-decoration: none;
-    font-size:100px;
     color:red;
 }
 
-#McD{
+#McD, #BK{
     text-align: center;
     font-size: 50px;
 }
@@ -95,3 +98,4 @@ nav {
     font-style: initial;
     margin-bottom: 30px;
 }
+
