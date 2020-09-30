@@ -28,7 +28,7 @@ span{
 
 .pokeJAM{
     height: 112px;
-    width: 500px;
+    width: 400px;
     margin: 20px;
 }
 
@@ -36,26 +36,22 @@ footer{
     padding: 10px;
     background-color:black;
     color:white;
-    font-size: 150px;
+    font-size: 20px;
     text-align:center;
 }
 
-img {
-    width: 200px;
-}
-
 nav {
-    font-size: 25px;
+    font-size: 40px;
     color: white;
 }
 
-.navLink:link,.navLink:visited,.navLink:hover{
+.navLink:link,.navLink:visited{
     color:white;
     text-decoration: none;
     margin: 50px;
 }
 
-.navLink:active{
+.navLink:active,.navLink:hover{
     text-decoration: none;
     color:red;
 }
@@ -65,12 +61,27 @@ nav {
     font-size: 50px;
 }
 
+#McDLink:link,#McDLink:visited,#BKLink:link,#BKLink:visited{
+    color:black;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#McDLink:active,#McDLink:hover,#BKLink:active,#BKLink:hover{
+    text-decoration: none;
+    color:red;
+}
+
 .margin{
     margin:25px;
 }
 
 .margin2{
     margin:15px;
+}
+
+img {
+    width: 200px;
 }
 
 .meny {
