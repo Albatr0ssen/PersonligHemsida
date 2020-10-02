@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #Burger{
     display: flex;
     flex-direction: row;
@@ -21,4 +25,30 @@ img{
 
 #kcal{
     font-size: 60px;
+}
+
+header{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    border: 0px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tillbaka,.tillbaka:visited{
+    color:white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.tillbaka:hover,.tillbaka:active{
+    color:blue;
+    text-decoration: none;
+}
+
+.svart{
+    color:black;
+    font-size: 50px;
 }

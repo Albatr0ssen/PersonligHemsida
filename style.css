@@ -2,6 +2,7 @@ body{
     border: 0px;
     margin: 0px;
     background-color:white;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 header{
@@ -38,6 +39,8 @@ footer{
     color:white;
     font-size: 20px;
     text-align:center;
+    font-family: 'Sansita Swashed', cursive;
+
 }
 
 nav {
@@ -80,8 +83,13 @@ nav {
     margin:15px;
 }
 
-img {
-    width: 200px;
+.meny img {
+    height: 125px
+}
+
+.meny img:hover,.meny img:active{
+    height: 150px;
+    border: 2px solid blue;
 }
 
 .meny {
@@ -97,6 +105,7 @@ img {
     font-size: 30px;
     font-family: sans-serif;
     font-style: oblique;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .meny-items{
@@ -108,5 +117,6 @@ img {
     font-family: sans-serif;
     font-style: initial;
     margin-bottom: 30px;
+    font-family: 'Sansita Swashed', cursive;
 }
 
